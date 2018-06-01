@@ -114,13 +114,16 @@
             <DependentOn>About.h</DependentOn>
             <BuildOrder>3</BuildOrder>
         </CppCompile>
-        <PCHCompile Include="GuesNumCPP-PCH1.h">
-            <BuildOrder>1</BuildOrder>
-            <PCH>true</PCH>
-        </PCHCompile>
         <CppCompile Include="GuesNumCPP.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
+        <ResFiles Include="GuesNumCPP.res">
+            <BuildOrder>4</BuildOrder>
+        </ResFiles>
+        <PCHCompile Include="GuesNumPCH1.h">
+            <BuildOrder>1</BuildOrder>
+            <PCH>true</PCH>
+        </PCHCompile>
         <CppCompile Include="Main.cpp">
             <Form>Form1</Form>
             <FormType>dfm</FormType>
