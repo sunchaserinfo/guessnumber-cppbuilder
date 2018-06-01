@@ -122,7 +122,7 @@
             <PCH>true</PCH>
         </PCHCompile>
         <CppCompile Include="Main.cpp">
-            <Form>Form1</Form>
+            <Form>MainForm</Form>
             <FormType>dfm</FormType>
             <DependentOn>Main.h</DependentOn>
             <BuildOrder>2</BuildOrder>

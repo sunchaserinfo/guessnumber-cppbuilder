@@ -10,7 +10,7 @@
 #include <Vcl.ComCtrls.hpp>
 #include <Vcl.Buttons.hpp>
 //---------------------------------------------------------------------------
-class TForm1 : public TForm
+class TMainForm : public TForm
 {
 __published:	// IDE-managed Components
 	TMemo *Memo1;
@@ -28,9 +28,9 @@ __published:	// IDE-managed Components
 	void __fastcall BitBtn1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TForm1(TComponent* Owner);
+	__fastcall TMainForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern TForm1 *Form1;
+extern TMainForm *MainForm;
 //---------------------------------------------------------------------------
 #endif

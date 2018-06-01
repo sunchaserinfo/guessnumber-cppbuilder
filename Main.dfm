@@ -1,12 +1,12 @@
-object Form1: TForm1
+object MainForm: TMainForm
   Left = 194
   Top = 148
-  BorderIcons = [biSystemMenu, biMinimize]
-  BorderStyle = bsSingle
   Caption = 'Guess Number C++ Edition 1.0'
-  ClientHeight = 325
-  ClientWidth = 438
+  ClientHeight = 315
+  ClientWidth = 428
   Color = clBtnFace
+  Constraints.MinHeight = 150
+  Constraints.MinWidth = 400
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -19,21 +19,28 @@ object Form1: TForm1
   object Memo1: TMemo
     Left = 0
     Top = 0
-    Width = 438
-    Height = 256
+    Width = 428
+    Height = 246
     Align = alClient
     ReadOnly = True
     TabOrder = 1
+    ExplicitWidth = 438
+    ExplicitHeight = 256
   end
   object Panel1: TPanel
     Left = 0
-    Top = 256
-    Width = 438
+    Top = 246
+    Width = 428
     Height = 69
     Align = alBottom
     Alignment = taLeftJustify
     BevelOuter = bvNone
     TabOrder = 0
+    ExplicitTop = 256
+    ExplicitWidth = 438
+    DesignSize = (
+      428
+      69)
     object Button1: TButton
       Left = 32
       Top = 36
@@ -69,6 +76,7 @@ object Form1: TForm1
       Top = 36
       Width = 123
       Height = 25
+      Anchors = [akTop, akRight]
       Caption = '&About...'
       Kind = bkHelp
       NumGlyphs = 2
@@ -80,6 +88,7 @@ object Form1: TForm1
       Top = 8
       Width = 297
       Height = 21
+      Anchors = [akLeft, akTop, akRight]
       TabOrder = 2
       Text = '0'
     end
