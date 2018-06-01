@@ -1,6 +1,7 @@
 object AboutForm: TAboutForm
   Left = 246
   Top = 185
+  BorderIcons = [biSystemMenu]
   Caption = 'About the Guess Number C++ Edition 1.0'
   ClientHeight = 286
   ClientWidth = 484
@@ -50,8 +51,6 @@ object AboutForm: TAboutForm
     Caption = 'OK'
     ModalResult = 1
     TabOrder = 0
-    ExplicitLeft = 388
-    ExplicitTop = 246
   end
   object Memo1: TMemo
     Left = 72
@@ -86,7 +85,5 @@ object AboutForm: TAboutForm
       'limitations under the License.')
     ReadOnly = True
     TabOrder = 1
-    ExplicitWidth = 406
-    ExplicitHeight = 214
   end
 end
