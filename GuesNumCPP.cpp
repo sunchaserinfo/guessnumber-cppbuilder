@@ -9,6 +9,8 @@ USEFORM("About.cpp", Form2);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
+	randomize();
+
 	try
 	{
 		Application->Initialize();
