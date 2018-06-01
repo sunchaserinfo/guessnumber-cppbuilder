@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-#include <vcl\vcl.h>
+#include <vcl.h>
 #pragma hdrstop
 
 #include "About.h"
@@ -17,3 +17,4 @@ void __fastcall TForm2::FormCreate(TObject *Sender)
 Image1->Picture->Assign(Application->Icon);
 }
 //---------------------------------------------------------------------------
+
