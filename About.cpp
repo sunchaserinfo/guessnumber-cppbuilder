@@ -14,7 +14,7 @@ __fastcall TForm2::TForm2(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm2::FormCreate(TObject *Sender)
 {
-Image1->Picture->Assign(Application->Icon);
+	Image1->Picture->Assign(Application->Icon);
 }
 //---------------------------------------------------------------------------
 

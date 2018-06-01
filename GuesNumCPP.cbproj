@@ -117,9 +117,6 @@
         <CppCompile Include="GuesNumCPP.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
-        <ResFiles Include="GuesNumCPP.res">
-            <BuildOrder>4</BuildOrder>
-        </ResFiles>
         <PCHCompile Include="GuesNumPCH1.h">
             <BuildOrder>1</BuildOrder>
             <PCH>true</PCH>
