@@ -109,7 +109,7 @@
     </PropertyGroup>
     <ItemGroup>
         <CppCompile Include="About.cpp">
-            <Form>Form2</Form>
+            <Form>AboutForm</Form>
             <FormType>dfm</FormType>
             <DependentOn>About.h</DependentOn>
             <BuildOrder>3</BuildOrder>

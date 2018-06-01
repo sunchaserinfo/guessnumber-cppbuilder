@@ -58,7 +58,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::BitBtn1Click(TObject *Sender)
 {
-	Form2->ShowModal();
+	AboutForm->ShowModal();
 }
 //---------------------------------------------------------------------------
 
